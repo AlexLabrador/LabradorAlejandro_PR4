@@ -735,3 +735,124 @@ Received Import Request.
 Start importing Assets/Trees/Conifer/Cap_Normal.png using Guid(1a1b80615555bbd4d98b608dda1bb428) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f8d2a35e9c9394c6dc9c75c51b72ef6') in 0.008889 seconds
   Import took 0.012647 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 1083.060774 seconds.
+  path: Assets/TerrainLayers/arena 1.terrainlayer
+  artifactKey: Guid(384fc9929eb09cf4fa8209573580e81a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainLayers/arena 1.terrainlayer using Guid(384fc9929eb09cf4fa8209573580e81a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '733c49ed9a285efc37a2d236d39488eb') in 0.400588 seconds
+  Import took 0.405898 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/TerrainLayers/arena.terrainlayer
+  artifactKey: Guid(aba6f94950a74f44eb961b8feab29a32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainLayers/arena.terrainlayer using Guid(aba6f94950a74f44eb961b8feab29a32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8af9a5db6458cecd5218a586dc536cb5') in 0.057460 seconds
+  Import took 0.071496 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Personajes/zomby/Zombie1.FBX
+  artifactKey: Guid(bfbebcf3048630a4ea03ab76985ae653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Personajes/zomby/Zombie1.FBX using Guid(bfbebcf3048630a4ea03ab76985ae653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59045887c0484f2d10e4ed4c68cecdbb') in 0.487251 seconds
+  Import took 0.510543 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000665 seconds.
+  path: Assets/TerrainLayers/arena 2.terrainlayer
+  artifactKey: Guid(808532edb662c764fb84772c89a197ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainLayers/arena 2.terrainlayer using Guid(808532edb662c764fb84772c89a197ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '924b7681e1af9e5440b9b6fe6ac22ad3') in 0.029898 seconds
+  Import took 0.056996 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.495163 seconds.
+  path: Assets/Personajes/Hombre/Survivor.fbx
+  artifactKey: Guid(ae9ce69aada9d6e43b078c434f1606e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Personajes/Hombre/Survivor.fbx using Guid(ae9ce69aada9d6e43b078c434f1606e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9af1c99c973fc5b10248539cae8a5c27') in 0.149216 seconds
+  Import took 0.166613 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.092169 seconds.
+  path: Assets/Personajes/Hombre/Animaciones/survivor@death1.fbx
+  artifactKey: Guid(ca75aa82ed91b1342a9b274d044d7a77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Personajes/Hombre/Animaciones/survivor@death1.fbx using Guid(ca75aa82ed91b1342a9b274d044d7a77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '903f79089915e3da701a378e0a86f1dd') in 0.008918 seconds
+  Import took 0.022640 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Personajes/Hombre/Animaciones/survivor@Run_1.fbx
+  artifactKey: Guid(dfa72d62dd5a9a6499373128eabecd4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Personajes/Hombre/Animaciones/survivor@Run_1.fbx using Guid(dfa72d62dd5a9a6499373128eabecd4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8909ef4b7e0e0545adb5dc7e0aef35f5') in 0.026187 seconds
+  Import took 0.029998 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Personajes/Hombre/Animaciones/survivor@strafe_left_noWeapon.fbx
+  artifactKey: Guid(6c1587550fcd54342bcaa77125b878af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Personajes/Hombre/Animaciones/survivor@strafe_left_noWeapon.fbx using Guid(6c1587550fcd54342bcaa77125b878af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f28c00d1a81c430fa98b01b5d1583691') in 0.033342 seconds
+  Import took 0.036894 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Personajes/Hombre/Animaciones/survivor@strafe_right_noWeapon.fbx
+  artifactKey: Guid(8111d87f22aae4d49acf93497acd6a61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Personajes/Hombre/Animaciones/survivor@strafe_right_noWeapon.fbx using Guid(8111d87f22aae4d49acf93497acd6a61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e873eeea62718ce799b7689d6d1cf83a') in 0.010841 seconds
+  Import took 0.022032 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Personajes/Hombre/Animaciones/survivor@Idle_LookAround_1.fbx
+  artifactKey: Guid(d93edbd8d5f19664884f4bf7658d545f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Personajes/Hombre/Animaciones/survivor@Idle_LookAround_1.fbx using Guid(d93edbd8d5f19664884f4bf7658d545f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bd3760852c75b41013b9031aaf8cd7b') in 0.026729 seconds
+  Import took 0.057534 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Personajes/Hombre/Animaciones/survivor@NormalWalk_1.fbx
+  artifactKey: Guid(8903144918704344ba1b4be02f27b2d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Personajes/Hombre/Animaciones/survivor@NormalWalk_1.fbx using Guid(8903144918704344ba1b4be02f27b2d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f859b70b7bd86c58bbab386efe81fde3') in 0.022181 seconds
+  Import took 0.025946 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Personajes/Hombre/Animaciones/survivor@ZoomInMoveBack.fbx
+  artifactKey: Guid(5bbaa9b895617d44eba1880b0dd744a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Personajes/Hombre/Animaciones/survivor@ZoomInMoveBack.fbx using Guid(5bbaa9b895617d44eba1880b0dd744a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d7dcb0411ec2718699d8773eaa5acfe') in 0.004104 seconds
+  Import took 0.020930 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Personajes/Hombre/Animaciones/survivor@Idle_lookForward.fbx
+  artifactKey: Guid(7a690604588c45d4cafe0f2b3a40bfa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Personajes/Hombre/Animaciones/survivor@Idle_lookForward.fbx using Guid(7a690604588c45d4cafe0f2b3a40bfa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09ffeade3f4db0c5868ab5d44765d6fa') in 0.009976 seconds
+  Import took 0.013667 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 172.704910 seconds.
+  path: Assets/Personajes/Hombre/Animaciones/Survivor.controller
+  artifactKey: Guid(9b5c91e2d4e764545a921646d93541af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Personajes/Hombre/Animaciones/Survivor.controller using Guid(9b5c91e2d4e764545a921646d93541af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abd8eceb3c482870ac4ea3a2d0e8b0cb') in 0.004186 seconds
+  Import took 0.008066 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 366.178055 seconds.
+  path: Assets/Personajes/Hombre/Animaciones/Survivor.controller
+  artifactKey: Guid(9b5c91e2d4e764545a921646d93541af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Personajes/Hombre/Animaciones/Survivor.controller using Guid(9b5c91e2d4e764545a921646d93541af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16f18a781452a42a315e5085530a0226') in 0.009996 seconds
+  Import took 0.015104 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
