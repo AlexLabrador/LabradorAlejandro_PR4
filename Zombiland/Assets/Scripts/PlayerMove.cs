@@ -30,6 +30,9 @@ public class PlayerMove : MonoBehaviour
         //despl izq
         inputAction.Player.DespLateralizq.performed += ctx => strafeL = ctx.ReadValue<float>();
         inputAction.Player.DespLateralizq.canceled += ctx => strafeL = 0f;
+        //Desplaz Dcho
+        inputAction.Player.DespLateraldrch.performed += ctx => strafeR = ctx.ReadValue<float>();
+        inputAction.Player.DespLateraldrch.canceled += ctx => strafeR = 0f;
         //correr
         inputAction.Player.Correr.started += _ => StartCorrer();
         inputAction.Player.Correr.canceled += _ => StopCorrer();
@@ -46,8 +49,9 @@ public class PlayerMove : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-       
+        Girar();
         Caminar();
+        Strafe();
         if (corriendo)
         {
             character.SimpleMove(dir * speed);
@@ -67,7 +71,7 @@ public class PlayerMove : MonoBehaviour
         }
         else
         {
-            speed = 2.5f;
+            speed = 2f;
         }
 
         dir = transform.TransformDirection(Vector3.forward);
@@ -78,12 +82,26 @@ public class PlayerMove : MonoBehaviour
     }
     void Strafe()
     {
-        speed = 1.2f;
-        dir = transform.TransformDirection(Vector3.right);
-        character.SimpleMove(dir * speed);
 
+        if (strafeL != 0 || strafeR != 0)
+        {
+            animator.SetBool("StrafeBool", true);
+            float strafeValue = strafeR - strafeL;
+            animator.SetFloat("strafe", strafeValue);
+            speed = 2.2f;
+            dir = transform.TransformDirection(Vector3.right);
+            character.SimpleMove(dir * strafeValue * speed);
+        }
+        else
+        {
+            speed = 2.5f;
+            dir = transform.TransformDirection(Vector3.forward);
+            animator.SetBool("StrafeBool", false);
+        }
     }
-    void StartCorrer()
+
+
+        void StartCorrer()
     {
         animator.SetBool("Run", true);
         speed = 5f;
@@ -95,14 +113,15 @@ public class PlayerMove : MonoBehaviour
     void StopCorrer()
     {
         animator.SetBool("Run", false);
-        speed = 2.5f;
+        speed = 2f;
         corriendo = false;
 
     }
     void Girar()
     {
-
+        transform.Rotate(0f, movePlayer.x * 1.6f, 0f);
     }
+
 
 
     private void OnEnable()
