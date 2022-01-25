@@ -13,38 +13,68 @@ public class PlayerMove : MonoBehaviour
     //Animator
     Animator animator;
 
-    InputAction inputAction;
+    InputActions inputAction;
     Vector2 movePlayer;
+    float strafeL;
+    float strafeR;
+    bool corriendo;
 
     // Start is called before the first frame update
     private void Awake()
     {
-        inputAction = new InputAction();
+      
+        inputAction = new InputActions();
+        //joystick izquierdo
         inputAction.Player.Moverse.performed += ctx => movePlayer = ctx.ReadValue<Vector2>();
-
+        inputAction.Player.Moverse.canceled += ctx => movePlayer = Vector2.zero;
+        //despl izq
+        inputAction.Player.DespLateralizq.performed += ctx => strafeL = ctx.ReadValue<float>();
+        inputAction.Player.DespLateralizq.canceled += ctx => strafeL = 0f;
+        //correr
+        inputAction.Player.Correr.started += _ => StartCorrer();
+        inputAction.Player.Correr.canceled += _ => StopCorrer();
     }
     void Start()
     {
        
         character = GetComponent<CharacterController>();
         animator = GetComponent<Animator>();
-        speed = 2.5f;
-        Correr();
+        //speed = 2.5f;
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-        
-        Correr();
+       
+        Caminar();
+        if (corriendo)
+        {
+            character.SimpleMove(dir * speed);
+            
+        }
+        else
+        {
+            Caminar();
+        }
+
     }
     void Caminar()
     {
-        speed = 2.5f;
-        dir = transform.TransformDirection(Vector3.forward);
-        character.SimpleMove(dir * speed);
+        if (movePlayer.y < 0)
+        {
+            speed = 0.6f;
+        }
+        else
+        {
+            speed = 2.5f;
+        }
 
-        
+        dir = transform.TransformDirection(Vector3.forward);
+        character.SimpleMove(dir * speed * movePlayer.y);
+        animator.SetFloat("caminar", movePlayer.y);
+
+
     }
     void Strafe()
     {
@@ -53,12 +83,20 @@ public class PlayerMove : MonoBehaviour
         character.SimpleMove(dir * speed);
 
     }
-    void Correr()
+    void StartCorrer()
     {
         animator.SetBool("Run", true);
         speed = 5f;
         dir = transform.TransformDirection(Vector3.forward);
         character.SimpleMove(dir * speed);
+        corriendo = true;
+
+    }
+    void StopCorrer()
+    {
+        animator.SetBool("Run", false);
+        speed = 2.5f;
+        corriendo = false;
 
     }
     void Girar()

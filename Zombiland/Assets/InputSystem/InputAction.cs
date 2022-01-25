@@ -6,10 +6,10 @@ using System.Collections.Generic;
 using UnityEngine.InputSystem;
 using UnityEngine.InputSystem.Utilities;
 
-public class @InputAction : IInputActionCollection, IDisposable
+public class @InputActions : IInputActionCollection, IDisposable
 {
     public InputActionAsset asset { get; }
-    public @InputAction()
+    public @InputActions()
     {
         asset = InputActionAsset.FromJson(@"{
     ""name"": ""InputAction"",
@@ -104,9 +104,9 @@ public class @InputAction : IInputActionCollection, IDisposable
             ""actions"": [
                 {
                     ""name"": ""New action"",
-                    ""type"": ""Button"",
+                    ""type"": ""Value"",
                     ""id"": ""9e64b678-e1d5-4110-b8ae-1446c170f495"",
-                    ""expectedControlType"": ""Button"",
+                    ""expectedControlType"": ""Vector2"",
                     ""processors"": """",
                     ""interactions"": """"
                 }
@@ -115,7 +115,7 @@ public class @InputAction : IInputActionCollection, IDisposable
                 {
                     ""name"": """",
                     ""id"": ""feecc655-8b24-46d2-969d-9ad0fe656b95"",
-                    ""path"": """",
+                    ""path"": ""<Gamepad>/rightStick"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
@@ -192,8 +192,8 @@ public class @InputAction : IInputActionCollection, IDisposable
     private readonly InputAction m_Player_DespLateraldrch;
     public struct PlayerActions
     {
-        private @InputAction m_Wrapper;
-        public PlayerActions(@InputAction wrapper) { m_Wrapper = wrapper; }
+        private @InputActions m_Wrapper;
+        public PlayerActions(@InputActions wrapper) { m_Wrapper = wrapper; }
         public InputAction @Moverse => m_Wrapper.m_Player_Moverse;
         public InputAction @Correr => m_Wrapper.m_Player_Correr;
         public InputAction @DespLateralizq => m_Wrapper.m_Player_DespLateralizq;
@@ -246,8 +246,8 @@ public class @InputAction : IInputActionCollection, IDisposable
     private readonly InputAction m_camera_Newaction;
     public struct CameraActions
     {
-        private @InputAction m_Wrapper;
-        public CameraActions(@InputAction wrapper) { m_Wrapper = wrapper; }
+        private @InputActions m_Wrapper;
+        public CameraActions(@InputActions wrapper) { m_Wrapper = wrapper; }
         public InputAction @Newaction => m_Wrapper.m_camera_Newaction;
         public InputActionMap Get() { return m_Wrapper.m_camera; }
         public void Enable() { Get().Enable(); }

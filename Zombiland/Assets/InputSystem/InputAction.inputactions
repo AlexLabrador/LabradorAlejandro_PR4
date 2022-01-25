@@ -91,9 +91,9 @@
             "actions": [
                 {
                     "name": "New action",
-                    "type": "Button",
+                    "type": "Value",
                     "id": "9e64b678-e1d5-4110-b8ae-1446c170f495",
-                    "expectedControlType": "Button",
+                    "expectedControlType": "Vector2",
                     "processors": "",
                     "interactions": ""
                 }
@@ -102,7 +102,7 @@
                 {
                     "name": "",
                     "id": "feecc655-8b24-46d2-969d-9ad0fe656b95",
-                    "path": "",
+                    "path": "<Gamepad>/rightStick",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
