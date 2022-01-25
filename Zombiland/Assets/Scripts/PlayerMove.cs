@@ -88,13 +88,13 @@ public class PlayerMove : MonoBehaviour
             animator.SetBool("StrafeBool", true);
             float strafeValue = strafeR - strafeL;
             animator.SetFloat("strafe", strafeValue);
-            speed = 2.2f;
+            speed = 1.8f;
             dir = transform.TransformDirection(Vector3.right);
             character.SimpleMove(dir * strafeValue * speed);
         }
         else
         {
-            speed = 2.5f;
+            speed = 2f;
             dir = transform.TransformDirection(Vector3.forward);
             animator.SetBool("StrafeBool", false);
         }
@@ -102,12 +102,14 @@ public class PlayerMove : MonoBehaviour
 
 
         void StartCorrer()
-    {
+       {
+       
         animator.SetBool("Run", true);
-        speed = 5f;
+        speed = 10f;
         dir = transform.TransformDirection(Vector3.forward);
         character.SimpleMove(dir * speed);
         corriendo = true;
+        print(speed);
 
     }
     void StopCorrer()
