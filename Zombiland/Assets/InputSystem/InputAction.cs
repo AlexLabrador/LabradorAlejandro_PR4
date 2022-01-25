@@ -15,34 +15,7 @@ public class @InputAction : IInputActionCollection, IDisposable
     ""name"": ""InputAction"",
     ""maps"": [
         {
-            ""name"": ""player"",
-            ""id"": ""7479671f-84bf-42f8-9e5f-7062413855a9"",
-            ""actions"": [
-                {
-                    ""name"": ""New action"",
-                    ""type"": ""Button"",
-                    ""id"": ""9e64b678-e1d5-4110-b8ae-1446c170f495"",
-                    ""expectedControlType"": ""Button"",
-                    ""processors"": """",
-                    ""interactions"": """"
-                }
-            ],
-            ""bindings"": [
-                {
-                    ""name"": """",
-                    ""id"": ""feecc655-8b24-46d2-969d-9ad0fe656b95"",
-                    ""path"": """",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""New action"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                }
-            ]
-        },
-        {
-            ""name"": ""camera"",
+            ""name"": ""Player"",
             ""id"": ""3dfe5954-3a91-4d79-9568-a0e3484c6016"",
             ""actions"": [
                 {
@@ -124,19 +97,46 @@ public class @InputAction : IInputActionCollection, IDisposable
                     ""isPartOfComposite"": false
                 }
             ]
+        },
+        {
+            ""name"": ""camera"",
+            ""id"": ""7479671f-84bf-42f8-9e5f-7062413855a9"",
+            ""actions"": [
+                {
+                    ""name"": ""New action"",
+                    ""type"": ""Button"",
+                    ""id"": ""9e64b678-e1d5-4110-b8ae-1446c170f495"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """"
+                }
+            ],
+            ""bindings"": [
+                {
+                    ""name"": """",
+                    ""id"": ""feecc655-8b24-46d2-969d-9ad0fe656b95"",
+                    ""path"": """",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""New action"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                }
+            ]
         }
     ],
     ""controlSchemes"": []
 }");
-        // player
-        m_player = asset.FindActionMap("player", throwIfNotFound: true);
-        m_player_Newaction = m_player.FindAction("New action", throwIfNotFound: true);
+        // Player
+        m_Player = asset.FindActionMap("Player", throwIfNotFound: true);
+        m_Player_Moverse = m_Player.FindAction("Moverse", throwIfNotFound: true);
+        m_Player_Correr = m_Player.FindAction("Correr", throwIfNotFound: true);
+        m_Player_DespLateralizq = m_Player.FindAction("Desp.Lateral.izq", throwIfNotFound: true);
+        m_Player_DespLateraldrch = m_Player.FindAction("Desp.Lateral.drch", throwIfNotFound: true);
         // camera
         m_camera = asset.FindActionMap("camera", throwIfNotFound: true);
-        m_camera_Moverse = m_camera.FindAction("Moverse", throwIfNotFound: true);
-        m_camera_Correr = m_camera.FindAction("Correr", throwIfNotFound: true);
-        m_camera_DespLateralizq = m_camera.FindAction("Desp.Lateral.izq", throwIfNotFound: true);
-        m_camera_DespLateraldrch = m_camera.FindAction("Desp.Lateral.drch", throwIfNotFound: true);
+        m_camera_Newaction = m_camera.FindAction("New action", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -183,16 +183,22 @@ public class @InputAction : IInputActionCollection, IDisposable
         asset.Disable();
     }
 
-    // player
-    private readonly InputActionMap m_player;
+    // Player
+    private readonly InputActionMap m_Player;
     private IPlayerActions m_PlayerActionsCallbackInterface;
-    private readonly InputAction m_player_Newaction;
+    private readonly InputAction m_Player_Moverse;
+    private readonly InputAction m_Player_Correr;
+    private readonly InputAction m_Player_DespLateralizq;
+    private readonly InputAction m_Player_DespLateraldrch;
     public struct PlayerActions
     {
         private @InputAction m_Wrapper;
         public PlayerActions(@InputAction wrapper) { m_Wrapper = wrapper; }
-        public InputAction @Newaction => m_Wrapper.m_player_Newaction;
-        public InputActionMap Get() { return m_Wrapper.m_player; }
+        public InputAction @Moverse => m_Wrapper.m_Player_Moverse;
+        public InputAction @Correr => m_Wrapper.m_Player_Correr;
+        public InputAction @DespLateralizq => m_Wrapper.m_Player_DespLateralizq;
+        public InputAction @DespLateraldrch => m_Wrapper.m_Player_DespLateraldrch;
+        public InputActionMap Get() { return m_Wrapper.m_Player; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
         public bool enabled => Get().enabled;
@@ -201,59 +207,20 @@ public class @InputAction : IInputActionCollection, IDisposable
         {
             if (m_Wrapper.m_PlayerActionsCallbackInterface != null)
             {
-                @Newaction.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnNewaction;
-                @Newaction.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnNewaction;
-                @Newaction.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnNewaction;
+                @Moverse.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnMoverse;
+                @Moverse.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnMoverse;
+                @Moverse.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnMoverse;
+                @Correr.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnCorrer;
+                @Correr.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnCorrer;
+                @Correr.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnCorrer;
+                @DespLateralizq.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnDespLateralizq;
+                @DespLateralizq.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnDespLateralizq;
+                @DespLateralizq.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnDespLateralizq;
+                @DespLateraldrch.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnDespLateraldrch;
+                @DespLateraldrch.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnDespLateraldrch;
+                @DespLateraldrch.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnDespLateraldrch;
             }
             m_Wrapper.m_PlayerActionsCallbackInterface = instance;
-            if (instance != null)
-            {
-                @Newaction.started += instance.OnNewaction;
-                @Newaction.performed += instance.OnNewaction;
-                @Newaction.canceled += instance.OnNewaction;
-            }
-        }
-    }
-    public PlayerActions @player => new PlayerActions(this);
-
-    // camera
-    private readonly InputActionMap m_camera;
-    private ICameraActions m_CameraActionsCallbackInterface;
-    private readonly InputAction m_camera_Moverse;
-    private readonly InputAction m_camera_Correr;
-    private readonly InputAction m_camera_DespLateralizq;
-    private readonly InputAction m_camera_DespLateraldrch;
-    public struct CameraActions
-    {
-        private @InputAction m_Wrapper;
-        public CameraActions(@InputAction wrapper) { m_Wrapper = wrapper; }
-        public InputAction @Moverse => m_Wrapper.m_camera_Moverse;
-        public InputAction @Correr => m_Wrapper.m_camera_Correr;
-        public InputAction @DespLateralizq => m_Wrapper.m_camera_DespLateralizq;
-        public InputAction @DespLateraldrch => m_Wrapper.m_camera_DespLateraldrch;
-        public InputActionMap Get() { return m_Wrapper.m_camera; }
-        public void Enable() { Get().Enable(); }
-        public void Disable() { Get().Disable(); }
-        public bool enabled => Get().enabled;
-        public static implicit operator InputActionMap(CameraActions set) { return set.Get(); }
-        public void SetCallbacks(ICameraActions instance)
-        {
-            if (m_Wrapper.m_CameraActionsCallbackInterface != null)
-            {
-                @Moverse.started -= m_Wrapper.m_CameraActionsCallbackInterface.OnMoverse;
-                @Moverse.performed -= m_Wrapper.m_CameraActionsCallbackInterface.OnMoverse;
-                @Moverse.canceled -= m_Wrapper.m_CameraActionsCallbackInterface.OnMoverse;
-                @Correr.started -= m_Wrapper.m_CameraActionsCallbackInterface.OnCorrer;
-                @Correr.performed -= m_Wrapper.m_CameraActionsCallbackInterface.OnCorrer;
-                @Correr.canceled -= m_Wrapper.m_CameraActionsCallbackInterface.OnCorrer;
-                @DespLateralizq.started -= m_Wrapper.m_CameraActionsCallbackInterface.OnDespLateralizq;
-                @DespLateralizq.performed -= m_Wrapper.m_CameraActionsCallbackInterface.OnDespLateralizq;
-                @DespLateralizq.canceled -= m_Wrapper.m_CameraActionsCallbackInterface.OnDespLateralizq;
-                @DespLateraldrch.started -= m_Wrapper.m_CameraActionsCallbackInterface.OnDespLateraldrch;
-                @DespLateraldrch.performed -= m_Wrapper.m_CameraActionsCallbackInterface.OnDespLateraldrch;
-                @DespLateraldrch.canceled -= m_Wrapper.m_CameraActionsCallbackInterface.OnDespLateraldrch;
-            }
-            m_Wrapper.m_CameraActionsCallbackInterface = instance;
             if (instance != null)
             {
                 @Moverse.started += instance.OnMoverse;
@@ -271,16 +238,49 @@ public class @InputAction : IInputActionCollection, IDisposable
             }
         }
     }
+    public PlayerActions @Player => new PlayerActions(this);
+
+    // camera
+    private readonly InputActionMap m_camera;
+    private ICameraActions m_CameraActionsCallbackInterface;
+    private readonly InputAction m_camera_Newaction;
+    public struct CameraActions
+    {
+        private @InputAction m_Wrapper;
+        public CameraActions(@InputAction wrapper) { m_Wrapper = wrapper; }
+        public InputAction @Newaction => m_Wrapper.m_camera_Newaction;
+        public InputActionMap Get() { return m_Wrapper.m_camera; }
+        public void Enable() { Get().Enable(); }
+        public void Disable() { Get().Disable(); }
+        public bool enabled => Get().enabled;
+        public static implicit operator InputActionMap(CameraActions set) { return set.Get(); }
+        public void SetCallbacks(ICameraActions instance)
+        {
+            if (m_Wrapper.m_CameraActionsCallbackInterface != null)
+            {
+                @Newaction.started -= m_Wrapper.m_CameraActionsCallbackInterface.OnNewaction;
+                @Newaction.performed -= m_Wrapper.m_CameraActionsCallbackInterface.OnNewaction;
+                @Newaction.canceled -= m_Wrapper.m_CameraActionsCallbackInterface.OnNewaction;
+            }
+            m_Wrapper.m_CameraActionsCallbackInterface = instance;
+            if (instance != null)
+            {
+                @Newaction.started += instance.OnNewaction;
+                @Newaction.performed += instance.OnNewaction;
+                @Newaction.canceled += instance.OnNewaction;
+            }
+        }
+    }
     public CameraActions @camera => new CameraActions(this);
     public interface IPlayerActions
-    {
-        void OnNewaction(InputAction.CallbackContext context);
-    }
-    public interface ICameraActions
     {
         void OnMoverse(InputAction.CallbackContext context);
         void OnCorrer(InputAction.CallbackContext context);
         void OnDespLateralizq(InputAction.CallbackContext context);
         void OnDespLateraldrch(InputAction.CallbackContext context);
+    }
+    public interface ICameraActions
+    {
+        void OnNewaction(InputAction.CallbackContext context);
     }
 }

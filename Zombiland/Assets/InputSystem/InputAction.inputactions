@@ -2,34 +2,7 @@
     "name": "InputAction",
     "maps": [
         {
-            "name": "player",
-            "id": "7479671f-84bf-42f8-9e5f-7062413855a9",
-            "actions": [
-                {
-                    "name": "New action",
-                    "type": "Button",
-                    "id": "9e64b678-e1d5-4110-b8ae-1446c170f495",
-                    "expectedControlType": "Button",
-                    "processors": "",
-                    "interactions": ""
-                }
-            ],
-            "bindings": [
-                {
-                    "name": "",
-                    "id": "feecc655-8b24-46d2-969d-9ad0fe656b95",
-                    "path": "",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "New action",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                }
-            ]
-        },
-        {
-            "name": "camera",
+            "name": "Player",
             "id": "3dfe5954-3a91-4d79-9568-a0e3484c6016",
             "actions": [
                 {
@@ -107,6 +80,33 @@
                     "processors": "",
                     "groups": "",
                     "action": "Desp.Lateral.drch",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "camera",
+            "id": "7479671f-84bf-42f8-9e5f-7062413855a9",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Button",
+                    "id": "9e64b678-e1d5-4110-b8ae-1446c170f495",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "feecc655-8b24-46d2-969d-9ad0fe656b95",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

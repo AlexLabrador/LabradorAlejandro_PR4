@@ -13,7 +13,16 @@ public class PlayerMove : MonoBehaviour
     //Animator
     Animator animator;
 
+    InputAction inputAction;
+    Vector2 movePlayer;
+
     // Start is called before the first frame update
+    private void Awake()
+    {
+        inputAction = new InputAction();
+        inputAction.Player.Moverse.performed += ctx => movePlayer = ctx.ReadValue<Vector2>();
+
+    }
     void Start()
     {
        
@@ -55,5 +64,15 @@ public class PlayerMove : MonoBehaviour
     void Girar()
     {
 
+    }
+
+
+    private void OnEnable()
+    {
+        inputAction.Enable();
+    }
+    private void OnDisable()
+    {
+        inputAction.Disable();
     }
 }
