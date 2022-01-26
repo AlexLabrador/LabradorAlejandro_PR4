@@ -15,11 +15,11 @@ D:/2ºAnimación/RPMI/GitHub/Repositorios/LabradorAlejandro_PR4/Zombiland
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49970
+65338
 Successfully changed project path to: D:/2ºAnimación/RPMI/GitHub/Repositorios/LabradorAlejandro_PR4/Zombiland
 D:/2ºAnimación/RPMI/GitHub/Repositorios/LabradorAlejandro_PR4/Zombiland
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 47.10 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 49.32 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.1f1 (77a89f25062f)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/Resources/UnitySubsystems
@@ -36,130 +36,249 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56832
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56952
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001529 seconds.
+Registered in 0.001594 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 48.10 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 50.18 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.192 seconds
+- Completed reload, in  1.844 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000904 seconds.
+Registered in 0.000903 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 49.87 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 56.19 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.372 seconds
+- Completed reload, in  1.323 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.54 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3003 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 174.5 MB.
+System memory in use after: 174.7 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 3485.
+Total: 2.386700 ms (FindLiveObjects: 0.346600 ms CreateObjectMapping: 0.167000 ms MarkObjects: 1.747300 ms  DeleteObjects: 0.124800 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/zomby
+  artifactKey: Guid(d474058c3aa39f94989c8f038f2deb75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zomby using Guid(d474058c3aa39f94989c8f038f2deb75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1847e0bb8e9fdc108f79ebcc40f1ae3a') in 0.009382 seconds
+  Import took 0.013785 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.946163 seconds.
+  path: Assets/zomby/ZombiPrefab.prefab
+  artifactKey: Guid(d6c2cc28a9322794e939f80c39e6a703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zomby/ZombiPrefab.prefab using Guid(d6c2cc28a9322794e939f80c39e6a703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b4ac28ba692f7ea22837e9f741bbcc2') in 0.129427 seconds
+  Import took 0.134270 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 113.739177 seconds.
+  path: Assets/Personajes/zomby/Animaciones/zombie.controller
+  artifactKey: Guid(1347c286594568147b7eac630b41a60c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Personajes/zomby/Animaciones/zombie.controller using Guid(1347c286594568147b7eac630b41a60c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2deb15eec9273971615913d38ec19817') in 0.040797 seconds
+  Import took 0.045403 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 141.483043 seconds.
+  path: Assets/Scripts/PlayerMove.cs
+  artifactKey: Guid(fccaf799941d99445bb883bb07de75db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerMove.cs using Guid(fccaf799941d99445bb883bb07de75db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '269235cd4999f6eb262251c6e3e6fe34') in 0.007636 seconds
+  Import took 0.012315 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.442713 seconds.
+  path: Assets/Scripts/ZombiMove.cs
+  artifactKey: Guid(442f3502a18184647af7b7a5e289e88e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ZombiMove.cs using Guid(442f3502a18184647af7b7a5e289e88e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4ea7761ad05a98e83936b29e2f9a99f') in 0.001844 seconds
+  Import took 0.005855 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.028120 seconds.
+  path: Assets/Scripts/ZombiMove.cs
+  artifactKey: Guid(442f3502a18184647af7b7a5e289e88e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ZombiMove.cs using Guid(442f3502a18184647af7b7a5e289e88e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4ea7761ad05a98e83936b29e2f9a99f') in 0.003063 seconds
+  Import took 0.007552 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000971 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.143 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2900 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 184.2 MB.
+System memory in use after: 184.3 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 3496.
+Total: 2.235800 ms (FindLiveObjects: 0.296000 ms CreateObjectMapping: 0.126000 ms MarkObjects: 1.694200 ms  DeleteObjects: 0.118400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 290.232201 seconds.
+  path: Assets/zomby/ZombiAnimator.controller
+  artifactKey: Guid(051d3de0253101049b58aabd1d23692a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zomby/ZombiAnimator.controller using Guid(051d3de0253101049b58aabd1d23692a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c00c54f6b4e519abfcbce4abcb7ddf8d') in 0.042674 seconds
+  Import took 0.047257 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001070 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.119 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3002 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 174.4 MB.
-System memory in use after: 174.5 MB.
+Unloading 2900 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 184.2 MB.
+System memory in use after: 184.4 MB.
 
-Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 3484.
-Total: 2.442700 ms (FindLiveObjects: 0.323200 ms CreateObjectMapping: 0.145500 ms MarkObjects: 1.855000 ms  DeleteObjects: 0.118100 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Personajes/zomby/Texturas
-  artifactKey: Guid(efefdb60904589241b7ef7d15da7d91b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Personajes/zomby/Texturas using Guid(efefdb60904589241b7ef7d15da7d91b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7382e7e717dcb7b256bceffd40623366') in 0.008743 seconds
-  Import took 0.012701 seconds .
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 3499.
+Total: 2.793300 ms (FindLiveObjects: 0.325000 ms CreateObjectMapping: 0.140200 ms MarkObjects: 2.181400 ms  DeleteObjects: 0.146100 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000258 seconds.
-  path: Assets/Personajes/zomby
-  artifactKey: Guid(3dea26428b8fe6946978f314e290345c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Personajes/zomby using Guid(3dea26428b8fe6946978f314e290345c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20dcf0b72cb3d986a2ffe8695ba19080') in 0.004799 seconds
-  Import took 0.008585 seconds .
+  Time since last request: 195.739789 seconds.
+  path: Assets/zomby/Zombie1.FBX
+  artifactKey: Guid(732c9a077eace42448264e4d5eafa647) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zomby/Zombie1.FBX using Guid(732c9a077eace42448264e4d5eafa647) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ba35b3422f085cb8cc10a57ce032f69') in 0.221035 seconds
+  Import took 0.225991 seconds .
 
 ========================================================================
-Received Import Request.
-  Time since last request: 44.704891 seconds.
-  path: Assets/Personajes
-  artifactKey: Guid(426338b31bc02bb4b8039ea9c2b882da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Personajes using Guid(426338b31bc02bb4b8039ea9c2b882da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2b5420b2be7c4ac286269d8a7d27eb6') in 0.006059 seconds
-  Import took 0.343887 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001032 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.110 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2900 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 184.5 MB.
+System memory in use after: 184.7 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 3506.
+Total: 2.935900 ms (FindLiveObjects: 0.497500 ms CreateObjectMapping: 0.204900 ms MarkObjects: 2.069600 ms  DeleteObjects: 0.162900 ms)
 
 ========================================================================
-Received Import Request.
-  Time since last request: 7.577644 seconds.
-  path: Assets/Personajes/materiales
-  artifactKey: Guid(f8589f65c83a2c44dabce426c903aed4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Personajes/materiales using Guid(f8589f65c83a2c44dabce426c903aed4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fdef260a2f41872610f98547439282a') in 0.006922 seconds
-  Import took 0.030643 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001123 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.220 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2900 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 184.6 MB.
+System memory in use after: 184.7 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 3509.
+Total: 2.811100 ms (FindLiveObjects: 0.404900 ms CreateObjectMapping: 0.189600 ms MarkObjects: 2.105700 ms  DeleteObjects: 0.109800 ms)
 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.001265 seconds.
-  path: Assets/Personajes/zomby/Animaciones
-  artifactKey: Guid(d0673d7c5a053b847afb7a285b49689f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Personajes/zomby/Animaciones using Guid(d0673d7c5a053b847afb7a285b49689f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d26b61f9005b75a617a808523fbe74c') in 0.006091 seconds
-  Import took 0.010185 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001008 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.198 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2900 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 184.6 MB.
+System memory in use after: 184.8 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 3512.
+Total: 2.489100 ms (FindLiveObjects: 0.326500 ms CreateObjectMapping: 0.146300 ms MarkObjects: 1.910300 ms  DeleteObjects: 0.105200 ms)
 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.025303 seconds.
-  path: Assets/Personajes/zomby/Animaciones
-  artifactKey: Guid(d0673d7c5a053b847afb7a285b49689f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Personajes/zomby/Animaciones using Guid(d0673d7c5a053b847afb7a285b49689f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d26b61f9005b75a617a808523fbe74c') in 0.002384 seconds
-  Import took 0.006534 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000987 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.142 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2900 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 184.6 MB.
+System memory in use after: 184.8 MB.
 
-========================================================================
-Received Import Request.
-  Time since last request: 17.012244 seconds.
-  path: Assets/Personajes/zomby/Texturas/Zombie.tga
-  artifactKey: Guid(0fd743fa96c2631419b3f2132cead595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Personajes/zomby/Texturas/Zombie.tga using Guid(0fd743fa96c2631419b3f2132cead595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3b4c162443a287bb58c372838409efe') in 0.057197 seconds
-  Import took 0.075944 seconds .
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 3515.
+Total: 3.007700 ms (FindLiveObjects: 0.713500 ms CreateObjectMapping: 0.199700 ms MarkObjects: 1.986400 ms  DeleteObjects: 0.107200 ms)
 
-========================================================================
-Received Import Request.
-  Time since last request: 94.717635 seconds.
-  path: Assets/AllSkyFree
-  artifactKey: Guid(4cd9d26a30f245846a743f75c36373f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AllSkyFree using Guid(4cd9d26a30f245846a743f75c36373f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5729c48bc2f239bbf464b8548415ea4') in 0.004794 seconds
-  Import took 0.337309 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 54.906058 seconds.
-  path: Assets/Personajes/zomby/Zombie1.FBX
-  artifactKey: Guid(bfbebcf3048630a4ea03ab76985ae653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Personajes/zomby/Zombie1.FBX using Guid(bfbebcf3048630a4ea03ab76985ae653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00f16fe350f8132b4dcb0aa85f04e295') in 0.217139 seconds
-  Import took 0.559430 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 28.984412 seconds.
-  path: Assets/Personajes/zomby/Zombie1.FBX
-  artifactKey: Guid(bfbebcf3048630a4ea03ab76985ae653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Personajes/zomby/Zombie1.FBX using Guid(bfbebcf3048630a4ea03ab76985ae653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '951f8a1c3404542a16003bb36f1425f2') in 0.089270 seconds
-  Import took 0.130117 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 33.340426 seconds.
-  path: Assets/Personajes/zomby/Zombie1.FBX
-  artifactKey: Guid(bfbebcf3048630a4ea03ab76985ae653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Personajes/zomby/Zombie1.FBX using Guid(bfbebcf3048630a4ea03ab76985ae653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a422ab096d10f1bd24d2f5a53d834ce0') in 0.119276 seconds
-  Import took 0.163900 seconds .
-
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
