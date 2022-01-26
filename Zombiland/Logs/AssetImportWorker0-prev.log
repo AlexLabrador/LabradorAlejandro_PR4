@@ -11,19 +11,19 @@ C:\Program Files\Unity\Hub\Editor\2020.3.1f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-D:/2ºAnimación/RPMI/GitHub/Repositorios/LabradorAlejandro_PR4/Zombiland
+C:/Users/ani/Desktop/LabradorAlejandro_PR4/Zombiland
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-64696
-Successfully changed project path to: D:/2ºAnimación/RPMI/GitHub/Repositorios/LabradorAlejandro_PR4/Zombiland
-D:/2ºAnimación/RPMI/GitHub/Repositorios/LabradorAlejandro_PR4/Zombiland
+62101
+Successfully changed project path to: C:/Users/ani/Desktop/LabradorAlejandro_PR4/Zombiland
+C:/Users/ani/Desktop/LabradorAlejandro_PR4/Zombiland
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 47.80 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 53.82 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.1f1 (77a89f25062f)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/2ºAnimación/RPMI/GitHub/Repositorios/LabradorAlejandro_PR4/Zombiland/Assets
+[Subsystems] Discovering subsystems at path C:/Users/ani/Desktop/LabradorAlejandro_PR4/Zombiland/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -36,315 +36,117 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56864
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56652
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001861 seconds.
+Registered in 0.001740 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 53.19 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 55.73 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.179 seconds
+- Completed reload, in  1.976 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001084 seconds.
+Registered in 0.001267 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 55.12 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 53.59 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.366 seconds
+- Completed reload, in  1.282 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.48 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3002 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 174.5 MB.
-System memory in use after: 174.6 MB.
+Unloading 3003 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 172.8 MB.
+System memory in use after: 173.0 MB.
 
-Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 3484.
-Total: 2.860500 ms (FindLiveObjects: 0.332900 ms CreateObjectMapping: 0.216700 ms MarkObjects: 2.124100 ms  DeleteObjects: 0.186100 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Personajes/zomby/Animaciones/zombie.controller
-  artifactKey: Guid(1347c286594568147b7eac630b41a60c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Personajes/zomby/Animaciones/zombie.controller using Guid(1347c286594568147b7eac630b41a60c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14b884f2c86e5c9202a5c485bc9e7b48') in 0.047056 seconds
-  Import took 0.051247 seconds .
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 3477.
+Total: 2.545000 ms (FindLiveObjects: 0.475600 ms CreateObjectMapping: 0.185500 ms MarkObjects: 1.779600 ms  DeleteObjects: 0.103400 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000164 seconds.
-  path: Assets/Personajes/zomby/Animaciones/Z_FallingBack.anim
-  artifactKey: Guid(f9adf923d42e9e3459e26a177f177942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Personajes/zomby/Animaciones/Z_FallingBack.anim using Guid(f9adf923d42e9e3459e26a177f177942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '363dd06f7ee2684ce826ba0e01273b22') in 0.017520 seconds
-  Import took 0.125440 seconds .
+  path: Assets/TerrainLayers/arena.terrainlayer
+  artifactKey: Guid(aba6f94950a74f44eb961b8feab29a32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainLayers/arena.terrainlayer using Guid(aba6f94950a74f44eb961b8feab29a32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adf1a7543b33e6b3661eedde915dba19') in 0.324378 seconds
+  Import took 0.328663 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 49.842392 seconds.
-  path: Assets/Personajes/zomby/Animaciones/Z_Attack.anim
-  artifactKey: Guid(fed04bdd7da0d9a4998c87c33b0b9370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Personajes/zomby/Animaciones/Z_Attack.anim using Guid(fed04bdd7da0d9a4998c87c33b0b9370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a5acd3a31e9f65965400e2d84a454a9') in 0.011506 seconds
-  Import took 0.036129 seconds .
+  Time since last request: 0.000160 seconds.
+  path: Assets/TerrainLayers/arena 2.terrainlayer
+  artifactKey: Guid(808532edb662c764fb84772c89a197ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainLayers/arena 2.terrainlayer using Guid(808532edb662c764fb84772c89a197ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7eee7da685721a2fb1bd2178cb4d7a5') in 0.321134 seconds
+  Import took 0.325309 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 34.816334 seconds.
-  path: Assets/Personajes/zomby/Zombie.prefab
-  artifactKey: Guid(074217ab82d3b504c9c1ed998fd26671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Personajes/zomby/Zombie.prefab using Guid(074217ab82d3b504c9c1ed998fd26671) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (zombie) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
-
-The Animator Controller (zombie) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
-
- -> (artifact id: '1ea7022eab00664db924cafe9231decf') in 0.097472 seconds
-  Import took 0.102212 seconds .
+  Time since last request: 0.000189 seconds.
+  path: Assets/Scripts/ZombiMove.cs
+  artifactKey: Guid(442f3502a18184647af7b7a5e289e88e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ZombiMove.cs using Guid(442f3502a18184647af7b7a5e289e88e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8cd79e38a2883866c050a1ac987dc02') in 0.013839 seconds
+  Import took 0.017738 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 168.515321 seconds.
-  path: Assets/Cabin/SurvivalOldHouse01_model.FBX
-  artifactKey: Guid(a5990b41114c98544b70555954686dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cabin/SurvivalOldHouse01_model.FBX using Guid(a5990b41114c98544b70555954686dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24a0cc715b148a11723770c126c68a15') in 0.199208 seconds
-  Import took 0.204773 seconds .
+  Time since last request: 0.000190 seconds.
+  path: Assets/TerrainLayers/arena 1.terrainlayer
+  artifactKey: Guid(384fc9929eb09cf4fa8209573580e81a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainLayers/arena 1.terrainlayer using Guid(384fc9929eb09cf4fa8209573580e81a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12b38d28cc54e876ef1a317b63defb7f') in 1.182011 seconds
+  Import took 1.186956 seconds .
+
+========================================================================
+Received Prepare
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.07 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 110.8 MB.
+System memory in use after: 111.0 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 3482.
+Total: 2.839700 ms (FindLiveObjects: 0.405500 ms CreateObjectMapping: 0.128900 ms MarkObjects: 2.229200 ms  DeleteObjects: 0.075200 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.783874 seconds.
-  path: Assets/Cabin/PBR_Tiled/MaterialsPBR
-  artifactKey: Guid(897c2cea5a95c924aa97e3d3e2857b17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cabin/PBR_Tiled/MaterialsPBR using Guid(897c2cea5a95c924aa97e3d3e2857b17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad4a14fced8b0360884d4f298c82a85c') in 0.005963 seconds
-  Import took 0.010337 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.514223 seconds.
-  path: Assets/Cabin/PBR_Tiled/OtherMaterials
-  artifactKey: Guid(ae222ee6bfa63914e893602608f0fe9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cabin/PBR_Tiled/OtherMaterials using Guid(ae222ee6bfa63914e893602608f0fe9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39ea529604c790ca4a577367a4dca56b') in 0.006127 seconds
-  Import took 0.010557 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.470618 seconds.
-  path: Assets/Cabin/PBR_Tiled/Textures
-  artifactKey: Guid(3fde7c175911e524f809e099bcac5d6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cabin/PBR_Tiled/Textures using Guid(3fde7c175911e524f809e099bcac5d6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b86efe673561f0cd274c591a8e5c3732') in 0.107129 seconds
-  Import took 0.111565 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.129139 seconds.
-  path: Assets/Cabin/SurvivalOldHouse01_prefab.prefab
-  artifactKey: Guid(cd0444593050fb540b27eca918296327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cabin/SurvivalOldHouse01_prefab.prefab using Guid(cd0444593050fb540b27eca918296327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2b18dc72f5345a4929a7c587db351a9') in 0.008089 seconds
-  Import took 0.012490 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.012592 seconds.
-  path: Assets/Cabin/SurvivalOldHouse01_prefab.prefab
-  artifactKey: Guid(cd0444593050fb540b27eca918296327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cabin/SurvivalOldHouse01_prefab.prefab using Guid(cd0444593050fb540b27eca918296327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2b18dc72f5345a4929a7c587db351a9') in 0.003455 seconds
-  Import took 0.007982 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 462.482761 seconds.
-  path: Assets/Cabin
-  artifactKey: Guid(e0b5c69f26a2f2c4bb5329efa152c5ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cabin using Guid(e0b5c69f26a2f2c4bb5329efa152c5ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a79f4220b02b0b7d97f8a01235b272ba') in 0.005165 seconds
-  Import took 0.011941 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 208.843640 seconds.
-  path: Assets/Poly Ninja/Hand Painted Rocks N Boulders - Free Edition/Meshes/Free_Snow_Model_3.fbx
-  artifactKey: Guid(6b6db52cab4ea324fa7d7b3b28f57837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Poly Ninja/Hand Painted Rocks N Boulders - Free Edition/Meshes/Free_Snow_Model_3.fbx using Guid(6b6db52cab4ea324fa7d7b3b28f57837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad5a624a9ebed81fcae8893ec4aeadfc') in 0.358409 seconds
-  Import took 0.363424 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000149 seconds.
-  path: Assets/Poly Ninja/Hand Painted Rocks N Boulders - Free Edition/Meshes/Free_Snow_Model_4.fbx
-  artifactKey: Guid(9f8cb4e6b3b62584ea4a63cbd36d4261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Poly Ninja/Hand Painted Rocks N Boulders - Free Edition/Meshes/Free_Snow_Model_4.fbx using Guid(9f8cb4e6b3b62584ea4a63cbd36d4261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01f2a66b42aa52e5b1c4ce67f40d9825') in 0.019633 seconds
-  Import took 0.023981 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000258 seconds.
-  path: Assets/Poly Ninja/Hand Painted Rocks N Boulders - Free Edition/Meshes/Free_Snow_Model_3.fbx
-  artifactKey: Guid(6b6db52cab4ea324fa7d7b3b28f57837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Poly Ninja/Hand Painted Rocks N Boulders - Free Edition/Meshes/Free_Snow_Model_3.fbx using Guid(6b6db52cab4ea324fa7d7b3b28f57837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad5a624a9ebed81fcae8893ec4aeadfc') in 0.013132 seconds
-  Import took 0.017320 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000169 seconds.
-  path: Assets/Poly Ninja/Hand Painted Rocks N Boulders - Free Edition/Meshes/Free_Snow_Model_4.fbx
-  artifactKey: Guid(9f8cb4e6b3b62584ea4a63cbd36d4261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Poly Ninja/Hand Painted Rocks N Boulders - Free Edition/Meshes/Free_Snow_Model_4.fbx using Guid(9f8cb4e6b3b62584ea4a63cbd36d4261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01f2a66b42aa52e5b1c4ce67f40d9825') in 0.007809 seconds
-  Import took 0.011928 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.123082 seconds.
-  path: Assets/Poly Ninja/Hand Painted Rocks N Boulders - Free Edition/Meshes/Free_Rock_Model_2.fbx
-  artifactKey: Guid(6ea90cdca5fb72b43b11743597b141c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Poly Ninja/Hand Painted Rocks N Boulders - Free Edition/Meshes/Free_Rock_Model_2.fbx using Guid(6ea90cdca5fb72b43b11743597b141c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '212e2f9a952b365515983a2503f9ed3a') in 0.121068 seconds
-  Import took 0.125659 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000205 seconds.
-  path: Assets/Poly Ninja/Hand Painted Rocks N Boulders - Free Edition/Meshes/Free_Rock_Model_0.fbx
-  artifactKey: Guid(9069d2b9dacd9e042b0a5cb3596a9f9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Poly Ninja/Hand Painted Rocks N Boulders - Free Edition/Meshes/Free_Rock_Model_0.fbx using Guid(9069d2b9dacd9e042b0a5cb3596a9f9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '624713756aca5b4fdfd655b41cfba2ae') in 0.016976 seconds
-  Import took 0.021071 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 45.785533 seconds.
-  path: Assets/Poly Ninja/Hand Painted Rocks N Boulders - Free Edition/Prefabs/Free_Arid_1.prefab
-  artifactKey: Guid(c86f72880f77a234abcd1ec671ea4333) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Poly Ninja/Hand Painted Rocks N Boulders - Free Edition/Prefabs/Free_Arid_1.prefab using Guid(c86f72880f77a234abcd1ec671ea4333) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dfc0a8c172565105142bf03c42c6215') in 0.094764 seconds
-  Import took 0.099075 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000970 seconds.
-  path: Assets/Poly Ninja/Hand Painted Rocks N Boulders - Free Edition/Prefabs/Free_Arid_1.prefab
-  artifactKey: Guid(c86f72880f77a234abcd1ec671ea4333) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Poly Ninja/Hand Painted Rocks N Boulders - Free Edition/Prefabs/Free_Arid_1.prefab using Guid(c86f72880f77a234abcd1ec671ea4333) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dfc0a8c172565105142bf03c42c6215') in 0.031615 seconds
-  Import took 0.036077 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.692025 seconds.
-  path: Assets/Poly Ninja/Hand Painted Rocks N Boulders - Free Edition/Prefabs/Free_Arid_3.prefab
-  artifactKey: Guid(ae723d846916794489cd6d8798f00606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Poly Ninja/Hand Painted Rocks N Boulders - Free Edition/Prefabs/Free_Arid_3.prefab using Guid(ae723d846916794489cd6d8798f00606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68a41a4d48b169c87372a29d0ed6473b') in 0.011940 seconds
-  Import took 0.137239 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.624778 seconds.
-  path: Assets/Poly Ninja/Hand Painted Rocks N Boulders - Free Edition/Prefabs/Free_Mossy_2.prefab
-  artifactKey: Guid(e37f58ad399225441b79f6e1dbd96509) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Poly Ninja/Hand Painted Rocks N Boulders - Free Edition/Prefabs/Free_Mossy_2.prefab using Guid(e37f58ad399225441b79f6e1dbd96509) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ba5d34cae3a6f60ca6f79b609c687e4') in 0.010721 seconds
-  Import took 0.135682 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.352497 seconds.
-  path: Assets/Poly Ninja/Hand Painted Rocks N Boulders - Free Edition/Prefabs/Free_Sharp_1.prefab
-  artifactKey: Guid(ee0e694deda5c574f8fc4e8a3722f059) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Poly Ninja/Hand Painted Rocks N Boulders - Free Edition/Prefabs/Free_Sharp_1.prefab using Guid(ee0e694deda5c574f8fc4e8a3722f059) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cb5486923407788dfa787848276cc58') in 0.012831 seconds
-  Import took 0.017537 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.804835 seconds.
-  path: Assets/Poly Ninja/Hand Painted Rocks N Boulders - Free Edition/Prefabs/Free_Sharp_4.prefab
-  artifactKey: Guid(5e53de4e6fd90c04c941ce34274d847f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Poly Ninja/Hand Painted Rocks N Boulders - Free Edition/Prefabs/Free_Sharp_4.prefab using Guid(5e53de4e6fd90c04c941ce34274d847f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e2fe48a4699fd940becb5dd27c468fe') in 0.013499 seconds
-  Import took 0.018293 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.628379 seconds.
-  path: Assets/Poly Ninja/Hand Painted Rocks N Boulders - Free Edition/Prefabs/Free_Sharp_3.prefab
-  artifactKey: Guid(a14a5921acc53a84bb550eb755aebc05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Poly Ninja/Hand Painted Rocks N Boulders - Free Edition/Prefabs/Free_Sharp_3.prefab using Guid(a14a5921acc53a84bb550eb755aebc05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1154038e42a3d494f6bd37f800365ce9') in 0.011683 seconds
-  Import took 0.016255 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.771603 seconds.
-  path: Assets/Poly Ninja/Hand Painted Rocks N Boulders - Free Edition/Prefabs/Free_Sharp_2.prefab
-  artifactKey: Guid(60d04e03674e3464b8b06664ba585a56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Poly Ninja/Hand Painted Rocks N Boulders - Free Edition/Prefabs/Free_Sharp_2.prefab using Guid(60d04e03674e3464b8b06664ba585a56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e76d5688e98242d567754e3e138cabe9') in 0.012451 seconds
-  Import took 0.017142 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 31.030868 seconds.
-  path: Assets/Poly Ninja/Hand Painted Rocks N Boulders - Free Edition/Prefabs/Free_Snow_0.prefab
-  artifactKey: Guid(ea12a6537a165b046ad5f923b286ea00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Poly Ninja/Hand Painted Rocks N Boulders - Free Edition/Prefabs/Free_Snow_0.prefab using Guid(ea12a6537a165b046ad5f923b286ea00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '837e87ce4c7ebba078c6f15b96ff796e') in 0.012434 seconds
-  Import took 0.017137 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 23.484661 seconds.
-  path: Assets/Cabin/PBR_Tiled
-  artifactKey: Guid(6f060efc0150c6d45b8e0d1b08593f7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cabin/PBR_Tiled using Guid(6f060efc0150c6d45b8e0d1b08593f7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef5487ef613933f28030fe75f6757815') in 0.005428 seconds
-  Import took 0.010182 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.714753 seconds.
-  path: Assets/Cabin/Materiales
-  artifactKey: Guid(8dfda02eec892ae489f5a4185534b201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cabin/Materiales using Guid(8dfda02eec892ae489f5a4185534b201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2222986def6eb8918eb2d9336d24cccd') in 0.005189 seconds
-  Import took 0.021407 seconds .
+  Time since last request: 28.292407 seconds.
+  path: Assets/Scripts/ZombiMove.cs
+  artifactKey: Guid(442f3502a18184647af7b7a5e289e88e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ZombiMove.cs using Guid(442f3502a18184647af7b7a5e289e88e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61c159eea379f2d71ec844f0fceb49f1') in 0.001792 seconds
+  Import took 0.006025 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001022 seconds.
+Registered in 0.001137 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.149 seconds
+- Completed reload, in  1.185 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2899 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 184.7 MB.
-System memory in use after: 184.9 MB.
+Unloading 2900 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 168.3 MB.
+System memory in use after: 168.5 MB.
 
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3531.
-Total: 2.496100 ms (FindLiveObjects: 0.323600 ms CreateObjectMapping: 0.175700 ms MarkObjects: 1.858800 ms  DeleteObjects: 0.137500 ms)
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 3485.
+Total: 2.222200 ms (FindLiveObjects: 0.287800 ms CreateObjectMapping: 0.106300 ms MarkObjects: 1.716300 ms  DeleteObjects: 0.110900 ms)
 
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file

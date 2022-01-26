@@ -105,7 +105,7 @@ public class PlayerMove : MonoBehaviour
        {
        
         animator.SetBool("Run", true);
-        speed = 10f;
+        speed = 5f;
         dir = transform.TransformDirection(Vector3.forward);
         character.SimpleMove(dir * speed);
         corriendo = true;

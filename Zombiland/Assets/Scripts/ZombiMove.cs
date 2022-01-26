@@ -75,10 +75,10 @@ public class ZombiMove : MonoBehaviour
         
         if(detected)
         {
-            print(goalDistance);
+            //print(goalDistance);
             if(goalDistance > 0.7)
             {
-                agent.speed = 2f;
+                agent.speed = 4f;
             }
             else
             {
