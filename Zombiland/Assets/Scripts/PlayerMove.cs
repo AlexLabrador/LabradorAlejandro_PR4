@@ -12,6 +12,9 @@ public class PlayerMove : MonoBehaviour
     CharacterController character;
     //Animator
     Animator animator;
+    public AudioSource pasos;
+
+    
 
     InputActions inputAction;
     Vector2 movePlayer;
@@ -39,9 +42,11 @@ public class PlayerMove : MonoBehaviour
     }
     void Start()
     {
-       
+        
         character = GetComponent<CharacterController>();
         animator = GetComponent<Animator>();
+        pasos = GetComponent<AudioSource>();
+        
         //speed = 2.5f;
         
     }
@@ -109,7 +114,10 @@ public class PlayerMove : MonoBehaviour
         dir = transform.TransformDirection(Vector3.forward);
         character.SimpleMove(dir * speed);
         corriendo = true;
-        print(speed);
+        
+        pasos.Play();
+        
+        
 
     }
     void StopCorrer()
@@ -117,11 +125,12 @@ public class PlayerMove : MonoBehaviour
         animator.SetBool("Run", false);
         speed = 2f;
         corriendo = false;
+        pasos.Stop();
 
     }
     void Girar()
     {
-        transform.Rotate(0f, movePlayer.x * 1.2f, 0f);
+        transform.Rotate(0f, movePlayer.x * 0.9f, 0f);
     }
 
 

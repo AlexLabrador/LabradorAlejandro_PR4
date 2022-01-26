@@ -14,8 +14,8 @@ public class ZombiMove : MonoBehaviour
     //Variables para la detección del jugador
     Transform player; //posicion del jugador
     bool detected; //variable que determina si me han detectado
-    [SerializeField] float visionRange = 10f; //Distancia a la que me ha detectado
-    [SerializeField] float visionConeAngle = 60f; //Angulo de vision
+    [SerializeField] float visionRange = 18f; //Distancia a la que me ha detectado
+    [SerializeField] float visionConeAngle = 180f; //Angulo de vision
     float goalDistance;
 
     //Animator
@@ -78,7 +78,7 @@ public class ZombiMove : MonoBehaviour
             //print(goalDistance);
             if(goalDistance > 0.7)
             {
-                agent.speed = 4f;
+                agent.speed = 3.6f;
             }
             else
             {
